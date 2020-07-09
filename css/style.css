@@ -15,6 +15,10 @@ header {
     text-align: center;
 }
 
+header .mobile {
+    display: none;
+}
+
 header a {
     margin-top: 40px;
     text-transform: uppercase;
@@ -52,12 +56,22 @@ header .logo a {
     text-indent: -99999px;
 }
 
+@media screen and (max-width: 650px) {
+    header .mobile {
+        display: inline-block;
+    }
+    header .desktop {
+        display: none;
+    }
+}
+
 .features {
     padding: 20px;
     display: flex;
     flex-direction: row;
     background: blanchedalmond;
     color: gray;
+    flex-wrap: wrap;
 }
 
 .features figure {
