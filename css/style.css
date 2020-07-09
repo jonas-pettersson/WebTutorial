@@ -18,6 +18,7 @@ header {
 header a {
     margin-top: 40px;
     text-transform: uppercase;
+    background-color: black;
 }
 
 header a:link {
@@ -51,33 +52,31 @@ header .logo a {
     text-indent: -99999px;
 }
 
-
-
-section {
-    margin: 20px;
+.features {
     padding: 20px;
     display: flex;
-}
-
-.feature-box {
+    flex-direction: row;
     background: blanchedalmond;
     color: gray;
+}
+
+.features figure {
+    margin: auto;
+    width: 100px;
+    text-align: center;
+    text-indent: -100px;
+}
+
+.features figure img {
+    border: 1px solid blanchedalmond;
+    border-radius: 50%;
+    width: 200px;
+    box-shadow: gray 0 0 10px;
 }
 
 .lower {
     background: rgb(187, 131, 47);
     color: white;
-}
-
-.feature-box div {
-    background: pink;
-    color: black;
-    margin: auto;
-    width: 100px;
-}
-
-.feature-box div.special {
-    background: rgb(219, 55, 82);
 }
 
 ul {
