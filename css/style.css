@@ -1,0 +1,97 @@
+body {
+    color: white;
+    background: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: black;
+    background-image: url("../images/baking.png");
+    background-size: 100%;
+    background-position: center;
+    padding: 20px;
+    height: 300px;
+    text-align: center;
+}
+
+header a {
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+header a:link {
+    color: pink;
+    text-decoration: none;
+}
+
+header a:visited {
+    color: pink;
+}
+
+header a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+
+header a:active {
+    color: khaki;
+}
+
+header .logo a {
+    background-image: url("../images/logo.png");
+    background-size: 200px;
+    background-color: red;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 120px;
+    top: -60px;
+    text-indent: -99999px;
+}
+
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.feature-box {
+    background: blanchedalmond;
+    color: gray;
+}
+
+.lower {
+    background: rgb(187, 131, 47);
+    color: white;
+}
+
+.feature-box div {
+    background: pink;
+    color: black;
+    margin: auto;
+    width: 100px;
+}
+
+.feature-box div.special {
+    background: rgb(219, 55, 82);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer {
+    background: black;
+    margin: 20px;
+    padding: 10px 20px;
+}
